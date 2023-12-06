@@ -1,0 +1,48 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+
+.App {
+  text-align: center;
+  /* padding: 20px; */
+  height: 100px;
+  /* width: fit-content; */
+ font-family:"poppins", sans-serif; 
+ font-weight: bolder;
+}
+
+.filter{
+padding-right:15px;
+padding-top: 15px;
+}
+.btn{width:fit-content;
+height: 30px;
+padding: 10px;
+border-radius:10px;
+margin: 5px;
+border: 1px grey; 
+color: black;
+cursor: pointer; 
+}
+
+.btn-clicked{
+  background-color: rgb(201, 242, 243);
+  color:  rgb(25, 79, 82);
+}
+.visible {
+  display: inline-block; 
+}
+
+.hidden {
+  display: none;
+}
+.form-box{display: flex; position: relative;margin: 50px;}
+.form{position: relative;}
+.input-box{width: 700px; height: 34px; position: relative;text-indent: 24px;outline: none;border: 1px solid rgb(243, 241, 241);}
+.input-box:focus {border: 2px solid rgb(4, 95, 4);} 
+.close-image{width: 20px;position: absolute; top:8px; right:10px;}
+        .search-image{width: 30px;position:absolute; cursor: text; top: 4px; left:1px;}
+        .addTask{
+          color: rgb(11, 92, 11);
+          border-color: beige;
+          border-radius: 4px;
+      cursor: pointer; margin-left: 400px;
+    }
